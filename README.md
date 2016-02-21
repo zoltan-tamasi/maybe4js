@@ -5,15 +5,15 @@
 ```javascript
 
 var value = Maybe(2);
-var null = Maybe(null);
+var nullValue = Maybe(null);
 
 value.get(); // 2
 
-null.get(); // null
+nullValue.get(); // null
 
 value.orElse(3); // 2
 
-null.orElse(3); // 3
+nullValue.orElse(3); // 3
 
 var doubler = function (value) {
     return value * 2;
@@ -21,7 +21,7 @@ var doubler = function (value) {
 
 value.map(doubler).get() // 4
 
-null.map(doubler).get() // null
+nullValue.map(doubler).get() // null
 
 
 ```
