@@ -1,6 +1,6 @@
 {
     "name": "maybe4js",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Very simple maybe helper.",
     "main": "index.js",
     "repository": {
